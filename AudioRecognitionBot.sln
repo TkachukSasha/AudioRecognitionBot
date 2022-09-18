@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E310CD2F-A596-4F3B-ABF8-36E2678EC37B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A524213A-794F-4D67-B4A4-FCACA47AEE0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{05776881-A44F-4696-AD60-9A925B3B6F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecognition.Core", "src\Core\AudioRecognition.Core\AudioRecognition.Core.csproj", "{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecognition.Presentation", "src\Presentation\AudioRecognition.Presentation\AudioRecognition.Presentation.csproj", "{DAFA09DE-1BEA-47E5-960F-893874F46C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA09DE-1BEA-47E5-960F-893874F46C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFA09DE-1BEA-47E5-960F-893874F46C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFA09DE-1BEA-47E5-960F-893874F46C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFA09DE-1BEA-47E5-960F-893874F46C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A524213A-794F-4D67-B4A4-FCACA47AEE0C} = {E310CD2F-A596-4F3B-ABF8-36E2678EC37B}
+		{05776881-A44F-4696-AD60-9A925B3B6F38} = {E310CD2F-A596-4F3B-ABF8-36E2678EC37B}
+		{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B} = {A524213A-794F-4D67-B4A4-FCACA47AEE0C}
+		{DAFA09DE-1BEA-47E5-960F-893874F46C38} = {05776881-A44F-4696-AD60-9A925B3B6F38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D178BD1E-2EED-4734-9020-4DFF85C2A06C}
+	EndGlobalSection
+EndGlobal
