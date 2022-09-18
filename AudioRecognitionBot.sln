@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A524213A-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{05776881-A44F-4696-AD60-9A925B3B6F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecognition.Core", "src\Core\AudioRecognition.Core\AudioRecognition.Core.csproj", "{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioRecognition.Core", "src\Core\AudioRecognition.Core\AudioRecognition.Core.csproj", "{006FA66F-4B9B-4246-AEBA-A8C85C5BB24B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecognition.Presentation", "src\Presentation\AudioRecognition.Presentation\AudioRecognition.Presentation.csproj", "{DAFA09DE-1BEA-47E5-960F-893874F46C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioRecognition.Presentation", "src\Presentation\AudioRecognition.Presentation\AudioRecognition.Presentation.csproj", "{DAFA09DE-1BEA-47E5-960F-893874F46C38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

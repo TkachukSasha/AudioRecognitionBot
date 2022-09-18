@@ -37,7 +37,7 @@ namespace AudioRecognition.Core.Commands
            {
                 new[]
                 {
-                    new KeyboardButton("Decode voice")
+                    new KeyboardButton("Decode_voice")
                 }
             });
 

@@ -15,4 +15,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\AudioRecognition.Core\AudioRecognition.Core.csproj" />
+  </ItemGroup>
+
 </Project>

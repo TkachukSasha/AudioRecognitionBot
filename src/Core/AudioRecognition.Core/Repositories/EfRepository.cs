@@ -3,12 +3,12 @@ using AudioRecognition.Core.Dal;
 
 namespace AudioRecognition.Core.Repositories
 {
-    public class EfRespository<TEntity> : IEfRepository<TEntity>, IDisposable where TEntity : BaseEntity
+    public class EfRepository<TEntity> : IEfRepository<TEntity>, IDisposable where TEntity : BaseEntity
     {
         private bool _disposed;
         private AudioRecognitionContext _context;
 
-        public EfRespository(AudioRecognitionContext context)
+        public EfRepository(AudioRecognitionContext context)
         {
             _context = context;
         }

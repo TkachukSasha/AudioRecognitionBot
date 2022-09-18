@@ -21,7 +21,7 @@ namespace AudioRecognition.Core.Config
 
             _client = new TelegramBotClient(_settings.Token);
 
-            var hook = $"{_settings.Url}api/message/voice_decode";
+            var hook = $"/api/message/voice_decode";
             await _client.SetWebhookAsync(hook);
 
             return _client;

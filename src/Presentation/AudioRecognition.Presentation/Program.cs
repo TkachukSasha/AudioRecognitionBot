@@ -1,5 +1,10 @@
+using AudioRecognition.Core.Dal.Extensions;
+using AudioRecognition.Core.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDatabase();
+builder.Services.AddCore(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
