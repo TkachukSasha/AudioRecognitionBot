@@ -2,7 +2,7 @@
 {
     public interface IBaseEntity
     {
-        long Id { get; set; }
+        int Id { get; set; }
         string UserName { get; set; }
     }
 }

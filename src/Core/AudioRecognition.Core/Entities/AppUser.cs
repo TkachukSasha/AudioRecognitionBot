@@ -2,21 +2,22 @@
 
 namespace AudioRecognition.Core.Entities
 {
-    public class User : BaseEntity, IBaseEntity
+    public class AppUser : BaseEntity, IBaseEntity
     {
-        public User()
+        public AppUser()
         {
             VoiceMessages = new HashSet<VoiceMessage>();
         }
 
-        public User(long id,
+        public AppUser(int id,
                     string userName)
         {
             Id = id;
             UserName = userName;
         }
 
-        public long Id { get; set; }
+        public int Id { get; set; }
+        public long ChatId { get; set; }
         public string UserName { get; set; }
         public ICollection<VoiceMessage> VoiceMessages { get; set; }
     }

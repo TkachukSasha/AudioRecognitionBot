@@ -12,6 +12,8 @@ namespace AudioRecognition.Core.Dal.Configurations
 
             builder.Property(x => x.Message).IsRequired();
 
+            builder.Property(x => x.ChatId).IsRequired();
+
             builder.HasOne(x => x.User).WithMany(x => x.VoiceMessages).HasForeignKey(x => x.User.Id);
         }
     }
